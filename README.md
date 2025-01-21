@@ -40,4 +40,15 @@ This project is a comprehensive e-commerce platform designed to deliver a user-f
   - vercel for deploying the website
   - herkou for storing the database
 
+# **Milestone 2**
+
+- **Project Organization:** Created a structured folder hierarchy with separate directories for frontend and backend.
+- **Frontend Setup:** Initialized a React app to serve as the base for building the user interface.
+- **Backend Setup:** Set up a Node.js server, laying the groundwork for future API integration.
+- **Styling Configuration:** Integrated and configured Tailwind CSS for responsive and utility-based styling.
+- **Login Page Development:** Designed and developed a functional and visually styled Login Page for the frontend.
+- **Development Enhancements:** Added optional extensions to improve efficiency during development.
+- **Version Control:** Pushed the project to a publicly accessible GitHub repository, ensuring it adheres to the submission guidelines.
+
+This milestone established a solid foundation for the project by combining structured organization, modern styling, and initial feature development.
 
