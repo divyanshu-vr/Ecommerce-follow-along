@@ -52,3 +52,30 @@ This project is a comprehensive e-commerce platform designed to deliver a user-f
 
 This milestone established a solid foundation for the project by combining structured organization, modern styling, and initial feature development.
 
+# Milestone 3: Project Setup for Backend 
+
+In this milestone, the backend for the e-commerce application was set up, connecting it to a database and implementing basic error handling. 
+
+**Backend Folder Structure:**
+
+- controllers/
+- models/
+- routes/: Contains API route definitions.
+- middleware/: Manages middleware functions like error handling.
+- utils/: Contains reusable utility functions.
+- config/: Stores environment and database configuration files.
+
+**Server Setup**
+- A Node.js server was created using Express.
+- The server was configured to listen on a designated port (default: 5000).
+- API endpoints were set up to handle basic requests.
+ 
+ **Database Connection**
+- Integrated MongoDB as the primary database for efficient data storage.
+- Successfully established a connection to MongoDB using Mongoose.
+- Ensured database connection parameters were stored securely using dotenv.
+
+**Error Handling**
+
+- Implemented basic error-handling middleware to provide clear and helpful error messages.
+- Added fallback logic to handle uncaught errors and invalid route.
