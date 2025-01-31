@@ -79,3 +79,12 @@ In this milestone, the backend for the e-commerce application was set up, connec
 
 - Implemented basic error-handling middleware to provide clear and helpful error messages.
 - Added fallback logic to handle uncaught errors and invalid route.
+
+# Milestone 4: User Model, Controller & File Uploads
+
+In this milestone, we:
+- Created the User Model using MongoDB schemas to define how user data (name, email, password, etc.) is structured in the database.
+
+- Developed the User Controller to handle user-related operations like adding a new user and retrieving user details.
+
+- Implemented Multer to enable file uploads, allowing users to upload profile pictures and store them in the backend.
