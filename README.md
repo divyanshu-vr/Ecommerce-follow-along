@@ -78,4 +78,4 @@ In this milestone, the backend for the e-commerce application was set up, connec
 **Error Handling**
 
 - Implemented basic error-handling middleware to provide clear and helpful error messages.
-- Added fallback logic to handle uncaught errors and invalid route..
+- Added fallback logic to handle uncaught errors and invalid route.
