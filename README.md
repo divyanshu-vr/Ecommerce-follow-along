@@ -88,3 +88,56 @@ In this milestone, we:
 - Developed the User Controller to handle user-related operations like adding a new user and retrieving user details.
 
 - Implemented Multer to enable file uploads, allowing users to upload profile pictures and store them in the backend.
+
+# Milestone 5
+
+- Built a Sign-Up Page using HTML and CSS.
+- Added input fields for Name, Email, and Password.
+- Implemented form validation to ensure correct data entry.
+- Checked email format and password security criteria.
+- Ensured a clean and user-friendly UI for better user experience.
+
+# Milestone 6 
+
+- Used bcrypt to encrypt passwords before saving them in the database.
+- Ensured passwords are not stored in plain text for better security.
+- Stored complete user data (name, email, hashed password) securely.
+- Enhanced data protection to prevent password theft and unauthorized access.
+- Followed security best practices to comply with privacy regulations
+
+# Milestone 7
+
+In this milestone, we implemented secure login authentication by validating user credentials during the login process. We created a login endpoint that accepts the user's email/username and password.
+
+- The backend retrieves user data from the database based on the provided email/username. If the user does not exist, an appropriate error message is returned.
+- For password validation, we used bcrypt to compare the entered password with the stored hashed password.
+- If the passwords match, the user is successfully authenticated; otherwise, an error is sent.
+- This approach ensures passwords remain encrypted and secure, preventing unauthorized access and enhancing data protection.
+
+By following security best practices, we strengthened authentication and ensured compliance with standards like GDPR and PCI-DSS
+
+### Milestone 8 Summary   
+In this milestone, we focused on creating a **frontend card component** to showcase products and displaying them on the homepage.  
+
+- Designed a **reusable card component** that accepts **product details** like name, price, and image as props.  
+- Created a **dynamic card rendering system** by mapping through an array of products and rendering a card for each item.  
+- Ensured the layout was **consistent** across all product cards, providing a **clean and organized structure**.  
+- Set up a **grid or flexbox layout** to display the product cards on the homepage, enhancing the overall **user experience** and improving **product browsing**.  
+- The design was made flexible and scalable, allowing easy integration and reuse in other parts of the app. 
+
+### Milestone 9 Summary   
+In this milestone, we focused on creating a **frontend form** for adding product details, including the ability to upload multiple images.
+
+- Designed a **form for product input** to capture key details like name, description, price, and product images.  
+- Enabled **multiple image uploads**, allowing users to add several images for each product.  
+- This form is designed to **store product data** in the database, which will later be displayed on the product homepage we built in previous milestones.  
+- The milestone also provides flexibility for future improvements, such as **admin-only access** for product uploads or creating specific profiles for users to manage their product listings. 
+
+### Milestone 10 Summary   
+In this milestone, we focused on creating a **Mongoose schema** for products and an endpoint to store product details in MongoDB.
+
+- Designed a **Mongoose schema** to define the structure of product data, including **name, description, price, and image URL**.  
+- Added **validation** to ensure the data is correct (e.g., required fields, correct data types) before saving it.  
+- Created a **POST endpoint** to receive product details, validate the data, and store it in the MongoDB database.  
+- Implemented **validation** to ensure only valid data is saved, maintaining **data integrity** and preventing errors.  
+- This milestone lays the foundation for future features, such as **admin-only access** for product uploads and managing product listings by users with shop profiles. 
