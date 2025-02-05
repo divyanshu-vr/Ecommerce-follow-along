@@ -140,4 +140,4 @@ In this milestone, we focused on creating a **Mongoose schema** for products and
 - Added **validation** to ensure the data is correct (e.g., required fields, correct data types) before saving it.  
 - Created a **POST endpoint** to receive product details, validate the data, and store it in the MongoDB database.  
 - Implemented **validation** to ensure only valid data is saved, maintaining **data integrity** and preventing errors.  
-- This milestone lays the foundation for future features, such as **admin-only access** for product uploads and managing product listings by users with shop profiles. 
+- This milestone lays the foundation for future features, such as **admin-only access** for product uploads and managing product listings by users with shop profiles..
