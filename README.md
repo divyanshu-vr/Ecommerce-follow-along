@@ -116,7 +116,7 @@ In this milestone, we implemented secure login authentication by validating user
 
 By following security best practices, we strengthened authentication and ensured compliance with standards like GDPR and PCI-DSS
 
-### Milestone 8 Summary   
+# Milestone 8 Summary   
 In this milestone, we focused on creating a **frontend card component** to showcase products and displaying them on the homepage.  
 
 - Designed a **reusable card component** that accepts **product details** like name, price, and image as props.  
@@ -125,7 +125,7 @@ In this milestone, we focused on creating a **frontend card component** to showc
 - Set up a **grid or flexbox layout** to display the product cards on the homepage, enhancing the overall **user experience** and improving **product browsing**.  
 - The design was made flexible and scalable, allowing easy integration and reuse in other parts of the app. 
 
-### Milestone 9 Summary   
+# Milestone 9 Summary   
 In this milestone, we focused on creating a **frontend form** for adding product details, including the ability to upload multiple images.
 
 - Designed a **form for product input** to capture key details like name, description, price, and product images.  
@@ -133,7 +133,7 @@ In this milestone, we focused on creating a **frontend form** for adding product
 - This form is designed to **store product data** in the database, which will later be displayed on the product homepage we built in previous milestones.  
 - The milestone also provides flexibility for future improvements, such as **admin-only access** for product uploads or creating specific profiles for users to manage their product listings. 
 
-### Milestone 10 Summary   
+# Milestone 10 Summary   
 In this milestone, we focused on creating a **Mongoose schema** for products and an endpoint to store product details in MongoDB.
 
 - Designed a **Mongoose schema** to define the structure of product data, including **name, description, price, and image URL**.  
