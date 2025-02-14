@@ -141,3 +141,146 @@ In this milestone, we focused on creating a **Mongoose schema** for products and
 - Created a **POST endpoint** to receive product details, validate the data, and store it in the MongoDB database.  
 - Implemented **validation** to ensure only valid data is saved, maintaining **data integrity** and preventing errors.  
 - This milestone lays the foundation for future features, such as **admin-only access** for product uploads and managing product listings by users with shop profiles..
+
+
+# Milestone 11: Sending and Displaying Data Dynamically 
+
+**Learning Goals:**
+- Write an endpoint to send product data from MongoDB to the frontend.
+- Receive data at the frontend and display it dynamically using a product card component.
+
+**Steps:**
+1. **Backend:**
+   - Create an endpoint to fetch and send all product data from MongoDB.
+
+2. **Frontend:**
+   - Write a function to fetch data from the backend.
+   - Pass the fetched data to the product card component.
+   - Display the data dynamically on the frontend.
+
+**Note:** This milestone focuses on understanding data flow between backend and frontend, and dynamically rendering data using components.
+
+
+# Milestone 12: Displaying User-Specific Products   
+
+**Learning Goals:**  
+- Write an endpoint to filter and send product data based on user email from MongoDB.  
+- Receive filtered data at the frontend and display it dynamically using the product card component.  
+
+**Steps:**  
+1. **Backend:**  
+   - Create an endpoint to fetch and send products filtered by the user's email.  
+
+2. **Frontend:**  
+   - Write a function to fetch user-specific product data from the backend.  
+   - Pass the fetched data to the product card component.  
+   - Display the data dynamically on the "My Products" page.  
+
+**Note:** This milestone focuses on filtering data based on constraints (e.g., user email) and dynamically rendering user-specific data using components.
+
+
+# Milestone 13: Editing Uploaded Products   
+
+**Learning Goals:**  
+- Write an endpoint to update existing product data in MongoDB.  
+- Auto-fill the form with previous data and provide an option to edit and save changes.  
+
+**Steps:**  
+1. **Backend:**  
+   - Create an endpoint to receive updated data and modify the existing product in MongoDB.  
+
+2. **Frontend:**  
+   - Add an edit button to the product card.  
+   - On clicking the edit button, auto-fill the form with the existing product data.  
+   - Allow users to edit the data and save the updated details.  
+
+**Note:** This milestone focuses on performing update operations and understanding how to edit and save changes to existing data.
+
+
+# Milestone 14: Deleting Product Data   
+
+**Learning Goals:**  
+- Write an endpoint to delete a product from MongoDB using its unique ID.  
+
+**Steps:**  
+1. **Backend:**  
+   - Create an endpoint to delete a product from MongoDB based on its ID.  
+
+2. **Frontend:**  
+   - Add a delete button to the product card.  
+   - On clicking the delete button, send the product ID to the backend endpoint for deletion.  
+
+**Note:** This milestone focuses on performing delete operations and understanding how to remove data from the database using specific identifiers.
+
+
+# Milestone 15: Creating and Integrating a Navbar Component   
+
+**Learning Goals:**  
+- Create a reusable Navbar component with links to all pages.  
+- Integrate the Navbar component across multiple pages for smooth navigation.  
+
+**Steps:**  
+1. **Create Navbar Component:**  
+   - Design a Navbar with links to:  
+     - Home  
+     - My Products  
+     - Add Product  
+     - Cart  
+   - Ensure the Navbar is responsive and works on all screen sizes.  
+
+2. **Integration:**  
+   - Add the Navbar component to all pages of the application.  
+   - Ensure smooth and easy navigation between pages.  
+
+**Note:** This milestone focuses on creating reusable components (Navbar) and understanding how to enable seamless navigation across multiple pages in an application.
+
+
+# Milestone 16: Creating a Product Info Page   
+
+**Learning Goals:**  
+- Create a dedicated page to display detailed information about a single product.  
+- Add functionality to select quantity and an "Add to Cart" button.  
+
+**Steps:**  
+1. **Product Info Page:**  
+   - Design a new page to display all details of a product (e.g., name, description, price, image, etc.).  
+   - Add a quantity selector and an "Add to Cart" button.  
+
+2. **Functionality:**  
+   - Allow users to choose the quantity of the product.  
+   - Implement the "Add to Cart" button to store the selected product and quantity.  
+
+**Note:** This milestone focuses on creating a detailed product view page and adding interactive features like quantity selection and cart functionality.
+
+
+# Milestone 17: Adding Products to Cart 
+
+**Learning Goals:**  
+- Modify the user schema to store cart products.  
+- Write a backend endpoint to receive and store product details in the cart.  
+
+**Steps:**  
+1. **Schema Update:**  
+   - Update the user schema to include a field for storing cart products.  
+
+2. **Backend Endpoint:**  
+   - Create an endpoint to receive product details (e.g., product ID, quantity) and store them in the user's cart in the database.  
+
+**Note:** This milestone focuses on implementing cart functionality, including schema design and backend logic for storing cart items.
+
+
+# Milestone 18: Fetching Cart Products   
+
+**Learning Goals:**  
+- Create a backend endpoint to handle requests from the cart page.  
+- Write logic to fetch all products inside the user's cart based on their email.  
+
+**Steps:**  
+1. **Backend Endpoint:**  
+   - Create an endpoint to receive requests from the cart page.  
+   - Fetch all products stored in the user's cart using their email.  
+
+2. **Frontend Integration:**  
+   - Use the fetched data to display products dynamically on the cart page.  
+
+**Note:** This milestone focuses on retrieving and displaying cart data, enhancing the cart functionality for a seamless user experience.
