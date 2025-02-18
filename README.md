@@ -284,3 +284,11 @@ In this milestone, we focused on creating a **Mongoose schema** for products and
    - Use the fetched data to display products dynamically on the cart page.  
 
 **Note:** This milestone focuses on retrieving and displaying cart data, enhancing the cart functionality for a seamless user experience.
+
+
+# Milestone 19  
+
+- Created a cart page to display products from the cart.  
+- Added `+` and `-` buttons to increase or decrease product quantity.  
+- Built a backend endpoint to handle quantity updates.  
+- Improved cart functionality with dynamic updates.
