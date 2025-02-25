@@ -292,3 +292,50 @@ In this milestone, we focused on creating a **Mongoose schema** for products and
 - Added `+` and `-` buttons to increase or decrease product quantity.  
 - Built a backend endpoint to handle quantity updates.  
 - Improved cart functionality with dynamic updates.
+
+
+# Milestone 20: Creating a Profile Page   
+
+**Learning Goals:**  
+- Create a backend endpoint to fetch and send user data using their email.  
+- Design a frontend profile page to display user details and addresses.  
+
+**Steps:**  
+1. **Backend Endpoint:**  
+   - Create an endpoint to fetch and send user data (e.g., profile photo, name, email, addresses) based on their email.  
+
+2. **Frontend Profile Page:**  
+   - Display user details in two sections:  
+     - **Section 1:** Profile photo, name, and email.  
+     - **Section 2:** Addresses with an "Add Address" button.  
+       - If no addresses are found, display "No address found."  
+
+3. **Navigation:**  
+   - Allow users to navigate to the address form page when clicking "Add Address."  
+
+**Note:** This milestone focuses on creating a profile page and displaying user data, including addresses, in an organized and user-friendly manner.
+
+
+# Milestone 21: Creating an Address Input Form   
+
+**Learning Goals:**  
+- Create a frontend form to collect address details.  
+- Store the input address in a state and handle navigation to the form page.  
+
+**Steps:**  
+1. **Address Form:**  
+   - Design a form to collect:  
+     - Country  
+     - City  
+     - Address Line 1  
+     - Address Line 2  
+     - Zip Code  
+     - Address Type  
+
+2. **State Management:**  
+   - Create a state to store the input address details.  
+
+3. **Navigation:**  
+   - When clicking "Add Address" in the profile, navigate to the address form page.  
+
+**Note:** This milestone focuses on creating an address input form and managing user input for address details.
