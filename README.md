@@ -339,3 +339,19 @@ In this milestone, we focused on creating a **Mongoose schema** for products and
    - When clicking "Add Address" in the profile, navigate to the address form page.  
 
 **Note:** This milestone focuses on creating an address input form and managing user input for address details.
+
+
+# Milestone 22: Saving Address in User Profile   
+
+**Learning Goals:**  
+- Create a backend endpoint to store the address received from the frontend form inside the user profile in the database.  
+
+**Steps:**  
+1. **Backend Endpoint:**  
+   - Create an endpoint to receive address details (country, city, address1, address2, zip code, address type) from the frontend form.  
+   - Add the received address to the address array in the user collection.  
+
+2. **Database Update:**  
+   - Ensure the address is saved and linked to the specific user profile.  
+
+**Note:** This milestone focuses on creating an endpoint to store and manage user addresses in the database, enhancing the profile functionality.
