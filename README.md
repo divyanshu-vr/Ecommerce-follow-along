@@ -355,3 +355,75 @@ In this milestone, we focused on creating a **Mongoose schema** for products and
    - Ensure the address is saved and linked to the specific user profile.  
 
 **Note:** This milestone focuses on creating an endpoint to store and manage user addresses in the database, enhancing the profile functionality.
+
+
+
+# Milestone 23: 
+
+1. **Place Order Button in Cart Page:**  
+   - Added a "Place Order" button inside the cart page.  
+   - When clicked, it navigates the user to the "Select Address" page.  
+
+2. **Select Address Page:**  
+   - Displays all saved addresses of the user.  
+   - Allows the user to select an address using a radio button.  
+   - Disables the "Confirm Address" button until an address is selected.  
+
+3. **Backend Endpoint for Fetching Addresses:**  
+   - Created an API endpoint (`GET /api/addresses`) that retrieves all saved addresses of the logged-in user from the database.  
+
+4. **Mongoose Schema for Orders:**  
+   - Defined an `Order` schema to store order details, including:  
+     - User ID (who placed the order)  
+     - Selected delivery address  
+     - Ordered items with product details and quantity  
+     - Total amount of the order  
+     - Order status (Pending, Shipped, Delivered) 
+
+# Milestone 24
+
+1. **Order Confirmation Page:**  
+   - After selecting an address, users are taken to an **Order Confirmation Page**.  
+   - This page displays:  
+     - All the products the user is ordering, along with their quantity.  
+     - The selected delivery address where the order will be shipped.  
+     - The total cart value calculated from the selected items.  
+     - A Place Order button is added at the bottom to finalize the order.  
+
+2. **Navigation & State Management:**  
+   - The `OrderConfirmationPage` receives the **selected address, cart items, and total price** via `location.state`.  
+   - This ensures the correct details are passed from the cart and address selection stages.
+
+3. **Updated Backend and Schema:**  
+   - The backend already has an endpoint (`GET /api/addresses`) to fetch user addresses.  
+   - The `Order` Mongoose schema was **kept intact** to store order details when users finalize their purchase.  
+  
+  # Order Management Milestones
+
+# Milestone 25
+
+- Create an endpoint to receive products, user, and address details.
+- Retrieve user `_id` using their email.
+- Store separate orders for each product with the same address.
+- Use the `Order` schema to save order details in MongoDB.
+
+# Milestone 26
+
+- Create an endpoint to receive user email.
+- Retrieve `_id` using the email.
+- Fetch all orders associated with the user and return them in the response.
+
+# Milestone 27
+
+- Create `my-orders` page.
+- Send a GET request to fetch user orders using email.
+- Display all user orders.
+- Add `My Orders` page in the navbar for easy navigation.
+
+# Milestone 28
+
+- Add a `Cancel Order` button for each order in `my-orders`.
+- Hide the button for already canceled orders.
+- Create an endpoint to receive `order-id`.
+- Retrieve order by ID, update status to `canceled`, and save changes.     
+

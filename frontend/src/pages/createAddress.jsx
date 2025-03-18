@@ -11,7 +11,7 @@ const CreateAddress = () => {
     const [address1, setAddress1] = useState("");
     const [address2, setAddress2] = useState("");
     const [zipCode, setZipCode] = useState("");
-    const [addressType, setAddressType] = useState("");
+    const [addressType, setAddressType] = useState(""); 
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -107,7 +107,8 @@ const CreateAddress = () => {
                     <div className="mt-4">
                         <label className="pb-1 block">Address Type</label>
                         <input
-                            type="text"
+                            type="dropdown"
+
                             value={addressType}
                             className="w-full p-2 border rounded"
                             onChange={(e) => setAddressType(e.target.value)}
