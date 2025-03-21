@@ -11,7 +11,7 @@ function Product({ _id, name, images, description, price }) {
         }, 2000);
         return () => clearInterval(interval);
     }, [images]);
-
+ 
     const currentImage = images[currentIndex];
     
     return (

@@ -35,7 +35,7 @@ router.post('/place-order', async (req, res) => {
         });
         const orders = await Promise.all(orderPromises);
         user.cart = [];
-        await user.save();
+         await user.save();
         
         res.status(201).json({ message: 'Orders placed and cart cleared successfully.', orders });
     } catch (error) {
@@ -68,7 +68,6 @@ router.get('/my-orders', async (req, res) => {
         res.status(500).json({ message: error.message });
     }
 });
-
 router.get('/myorders', async (req, res) => {
     try {
         // Retrieve email from query parameters

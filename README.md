@@ -427,3 +427,45 @@ In this milestone, we focused on creating a **Mongoose schema** for products and
 - Create an endpoint to receive `order-id`.
 - Retrieve order by ID, update status to `canceled`, and save changes.     
 
+
+# Milestone 29: Integrating PayPal Payment Gateway   
+
+**Learning Goals:**  
+- Learn how to use the PayPal API for online payments.  
+- Integrate PayPal as a payment option in the application.  
+
+**Steps:**  
+1. **Set Up PayPal:**  
+   - Create a PayPal account and access the PayPal Developer Dashboard.  
+   - Use the Sandbox accounts for testing.  
+   - Copy and save the Sandbox UserID and Client ID.  
+
+2. **Frontend Integration:**  
+   - On the order confirmation page, add two payment options:  
+     - Cash on Delivery (COD)  
+     - Online Payment (PayPal)  
+   - Use radio buttons to allow users to select their preferred payment method.  
+   - Display PayPal payment buttons when "Online Payment" is selected.  
+
+**Note:** This milestone focuses on setting up PayPal for online payments and preparing the frontend for payment integration. In the next milestone, we will implement the PayPal payment buttons and functionality.
+
+
+# Milestone 30: Implementing PayPal Online Payments 🌟  
+
+**Learning Goals:**  
+- Learn how to use the PayPal API for online payments.  
+- Integrate PayPal payment methods into the application.  
+
+**Steps:**  
+1. **Set Up PayPal:**  
+   - Use the PayPal Sandbox account and Client ID created in Milestone 29.  
+
+2. **Install Required Package:**  
+   - Download the `react-paypal-js` NPM package.  
+   - Use the `PayPalScriptProvider` component to enable PayPal payment methods (e.g., credit/debit cards).  
+
+3. **Implement Payment Integration:**  
+   - Follow the PayPal documentation for ReactJS to integrate the payment buttons and functionality.  
+   - Display the PayPal payment options when the user selects "Online Payment" on the order confirmation page.  
+
+**Note:** This milestone focuses on implementing PayPal online payments using the `react-paypal-js` package and integrating it into the application. Refer to the PayPal documentation for detailed implementation steps.

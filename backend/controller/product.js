@@ -19,7 +19,7 @@ const validateProductData = (data) => {
     errors.push("Valid product stock is required");
   if (!data.email) errors.push("Email is required");
   return errors;
-};
+}; 
 router.post(
   "/create-product",
   pupload.array("images", 10),
