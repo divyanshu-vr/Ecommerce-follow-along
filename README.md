@@ -450,7 +450,7 @@ In this milestone, we focused on creating a **Mongoose schema** for products and
 **Note:** This milestone focuses on setting up PayPal for online payments and preparing the frontend for payment integration. In the next milestone, we will implement the PayPal payment buttons and functionality.
 
 
-# Milestone 30: Implementing PayPal Online Payments 🌟  
+# Milestone 30: Implementing PayPal Online Payments 
 
 **Learning Goals:**  
 - Learn how to use the PayPal API for online payments.  
@@ -469,3 +469,24 @@ In this milestone, we focused on creating a **Mongoose schema** for products and
    - Display the PayPal payment options when the user selects "Online Payment" on the order confirmation page.  
 
 **Note:** This milestone focuses on implementing PayPal online payments using the `react-paypal-js` package and integrating it into the application. Refer to the PayPal documentation for detailed implementation steps.
+
+
+# Milestone 31: Implementing Redux for Global State Management 
+
+**Learning Goals:**
+- Learn how to use Redux for global state management in React
+- Implement a Redux store to manage global application state
+- Store and access user email across the entire application
+
+**Key Concepts:**
+- **Store:** The single source of truth for your application state
+- **Reducer:** Pure function that specifies how the state changes in response to actions
+- **Actions:** Plain JavaScript objects that describe what happened
+- **Provider:** Makes the Redux store available to any nested components
+
+**Note:** In the next milestone, you'll learn how to:
+1. Dispatch the `setEmail` action to update the global state
+2. Access the email state from any component using `useSelector`
+3. Modify the state using `useDispatch`
+
+This implementation provides a solid foundation for managing global state in your React application using Redux. The user's email can now be accessed and modified from anywhere in your component tree.
